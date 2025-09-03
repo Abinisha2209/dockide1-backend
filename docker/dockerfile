@@ -1,0 +1,14 @@
+FROM python:3.11
+
+WORKDIR /home/workspace
+
+RUN pip install --upgrade pip
+
+RUN pip install --no-cache-dir \
+    jupyterlab \
+    numpy pandas matplotlib seaborn \
+    scikit-learn \
+    torch torchvision torchaudio \
+    tensorflow
+
+CMD ["tail", "-f", "/dev/null"]

@@ -1,0 +1,11 @@
+{
+  "name": "dockide-evaluator",
+  "version": "1.0.0",
+  "description": "Evaluator for student submissions",
+  "main": "evaluator.js",
+  "scripts": {
+  "test": "node evaluator.js"
+}
+,
+  "dependencies": {}
+}

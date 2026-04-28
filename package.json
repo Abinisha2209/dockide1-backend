@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,12 +13,18 @@
   "description": "",
   "dependencies": {
     "body-parser": "^2.2.0",
+    "chai": "^6.0.1",
     "cors": "^2.8.5",
     "dockerode": "^4.0.7",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "fs-extra": "^11.3.0",
+    "fs-extra": "^11.3.2",
+    "mocha": "^11.7.2",
     "mysql2": "^3.14.3",
+    "python-shell": "^5.0.0",
     "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
